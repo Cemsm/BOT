@@ -6,5 +6,3 @@ require ('telegram.php');
 $telegram = new telegram(TOKEN);
 
 echo $telegram->getMe();
-
-?>
